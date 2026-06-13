@@ -1,6 +1,4 @@
-import type { Route } from "./+types/home";
-
-export function meta({}: Route.MetaArgs) {
+export function meta() {
   return [
     { title: "Home" },
     { name: "description", content: "Home Page" },
@@ -8,5 +6,5 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <h1>Hiiii</h1>;
+  return <h1></h1>;
 }
