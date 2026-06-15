@@ -5,9 +5,9 @@ import Footer from "../../../component/shared/Footer";
 export default function MainLayout() {
   return (
     <>
-      <Navber />
+     
       <Outlet />
-      <Footer />
+     
     </>
   );
 }

@@ -1,10 +1,12 @@
-export function meta() {
-  return [
-    { title: "Home" },
-    { name: "description", content: "Home Page" },
-  ];
-}
+import Navbar from "../../component/shared/Navber";
 
+import Footer from "../../component/shared/Footer";
 export default function Home() {
-  return <h1></h1>;
+  return (
+    <>
+      <Navbar />
+      
+      <Footer />
+    </>
+  );
 }
