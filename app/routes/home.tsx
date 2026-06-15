@@ -1,12 +1,17 @@
-import Navbar from "../../component/shared/Navber";
 
-import Footer from "../../component/shared/Footer";
+
+import About from "./about";
+import Process from "./process";
+import Services from "./services";
+
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <About />
+      <Process/>
+      <Services/>
+
       
-      <Footer />
     </>
   );
 }
