@@ -15,9 +15,9 @@ export default function Services() {
 
           <div>
             <img
-              src="/images/service.jpg"
+              src="/store_pic.webp"
               alt="Service"
-              className="w-full h-[650px] object-cover rounded-xl"
+              className="w-full h-[600px] object-cover rounded-xl"
             />
           </div>
 
@@ -80,8 +80,8 @@ export default function Services() {
               rounded-xl
               text-2xl
               bg-white
-              hover:bg-black
-              hover:text-white
+              
+              text-black
               duration-300
               "
             >
